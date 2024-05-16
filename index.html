@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icon/partner.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title">RAIS R</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="mailto:raisramadhan60@icloud.com">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Rais Ramadhan Here!</p>
+        <p class="description">Technology Influencer From Village</p>
+        <img src="assets/foto/foto1.jpeg" alt="foto1" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">ABOUT ME</p>
+        <p class="description">Halo, saya Rais Ramadhan dari sekolah SMK Muhammadiyah 1 Sukoharjo. Saya saat ini duduk dibangku kelas 11 dan mengambil jurusan PPLG</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Hubungi saya
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="projects">
+          <div class="card-item">
+            <img src="assets/icon/hsl1.png" alt="hsl 1" class="icon" />
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/hsl2.png" alt="hsl 2" class="icon" />
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title"><a href="index.html">&copy; Rais Ramadhan Website</a></p>
+    </footer>
+
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://instagram.com/raisrmdhan";
+      }
+
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/6282138353043";
+      }
+    </script>
+  </body>
+</html>
